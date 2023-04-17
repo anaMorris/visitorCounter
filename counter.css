@@ -1,0 +1,68 @@
+
+
+body {
+    background-color: black;
+    background-image: url("background.jpg");
+
+    min-height: 100vh;
+    
+}
+
+.text {
+    background: gray;
+    position: absolute;
+    top: 380px;
+    min-height: 10vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-style: solid;
+    border-color: rgba(101, 0, 101, .9);
+
+    color: white;
+    font-size: 30px;
+
+    background: linear-gradient(217deg, rgba(176, 0, 176,.9), rgba(255,0,0,0) 80.71%),            
+    linear-gradient(127deg, rgba(218, 111, 255,.9), rgba(0,255,0,0) 80.71%),            
+    linear-gradient(336deg, rgba(255, 137, 175,.5), rgba(0,0,255,0) 80.71%);
+}
+
+
+.qrSafetyBody{
+    background: gray;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: 800px;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+
+    border-style: solid;
+    border-color: rgba(101, 0, 101, .9);
+
+    color: white;
+    font-size: 20px;
+
+    background: linear-gradient(217deg, rgba(218, 111, 255,.8), rgba(255,0,0,0) 70.71%),            
+    linear-gradient(127deg, rgba(176, 0, 176,.8), rgba(0,255,0,0) 70.71%),            
+    linear-gradient(336deg, rgba(255, 137, 175,.3), rgba(0,0,255,0) 70.71%);
+}
+
+a{
+    color: white;
+}
+
+p{
+    padding: 15px
+}
+
+#links{
+    border-style: solid;
+    border-color: white;
+
+}
