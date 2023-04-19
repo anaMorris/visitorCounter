@@ -65,3 +65,53 @@ p{
     border-color: white;
 
 }
+
+
+
+@media only screen and (max-width: 900px){
+    .text{
+        background: gray;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        min-height: 10vh;
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        border-style: solid;
+        border-color: rgba(101, 0, 101, .9);
+    
+        color: white;
+        font-size: 30px;
+    
+        background: linear-gradient(217deg, rgba(176, 0, 176,.9), rgba(255,0,0,0) 80.71%),            
+        linear-gradient(127deg, rgba(218, 111, 255,.9), rgba(0,255,0,0) 80.71%),            
+        linear-gradient(336deg, rgba(255, 137, 175,.5), rgba(0,0,255,0) 80.71%);
+    }
+
+    .qrSafetyBody{
+        background: gray;
+        position: absolute;
+        top: 300px;
+        left: 20px;
+        height: 1700px;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 60px;
+
+        border-style: solid;
+        border-color: rgba(101, 0, 101, .9);
+
+        color: white;
+        font-size: 20px;
+
+        background: linear-gradient(217deg, rgba(218, 111, 255,.8), rgba(255,0,0,0) 70.71%),            
+        linear-gradient(127deg, rgba(176, 0, 176,.8), rgba(0,255,0,0) 70.71%),            
+        linear-gradient(336deg, rgba(255, 137, 175,.3), rgba(0,0,255,0) 70.71%);
+
+    }
+}
