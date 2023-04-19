@@ -1,5 +1,3 @@
-
-
 body {
     background-color: black;
     background-image: url("background.jpg");
@@ -11,7 +9,8 @@ body {
 .text {
     background: gray;
     position: absolute;
-    top: 380px;
+    top: 60px;
+    left: 200px;
     min-height: 10vh;
     width: 40%;
     display: flex;
@@ -33,14 +32,14 @@ body {
 .qrSafetyBody{
     background: gray;
     position: absolute;
-    top: 40px;
-    right: 0;
-    height: 800px;
+    top: 200px;
+    left: 95px;
+    height: 700px;
     width: 45%;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
+    padding: 60px;
 
     border-style: solid;
     border-color: rgba(101, 0, 101, .9);
