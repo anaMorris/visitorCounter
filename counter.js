@@ -1,15 +1,11 @@
 const count = document.getElementById('count');
 
-counter();
+update();
 
-function counter(){
-    let visitors;
-
-    if(!localStorage.getItem('visitors')) localStorage.setItem('visitors', 1);
-
-    visitors = +localStorage.getItem('visitors');
-    const visitorCount = visitors + 1;
-
-    localStorage.setItem('visitors', visitorCount);
-    count.innerText = localStorage.getItem('visitors');
+function update(){
+    fetch('https://api.countapi.xyz/update/dupecounter.com/duped/?amount=1')
+        .then(res => res.json())
+        .then(res => {
+            count.innerHTML = res.value;
+        });
 }
